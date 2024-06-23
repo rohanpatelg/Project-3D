@@ -15,19 +15,17 @@ const state = reactive({
 import PdfNode from '@/components/PdfNode.vue'
 import TextComponent from '@/components/TextComponent.vue'
 import LineComponent from '@/components/LineComponent.vue'
-// const { onLoop } = useRenderLoop();
 import { useDataStore } from '@/store/data.store'
 import VuePdfApp from "vue3-pdf-app";
 import "vue3-pdf-app/dist/icons/main.css";
 const {updateEdgeData,getPdfPathforNode}=useDataStore()
-const text = ref('hi')
-const editId = ref(-1)
+
 const boxRef = shallowRef(null)
 const showInput = ref(false)
 const idToUpdate=ref<number>(-1)
 const update = (id: number) => {
   showInput.value = true
-  console.log("uupup")
+
   idToUpdate.value=id
 }
   const inputText = ref('')
@@ -41,17 +39,7 @@ const update = (id: number) => {
     inputText.value = ''
     showInput.value = false
   }
-function close(e:any){
-  if(e.key==='Escape' || e.key==='Esc'){
-    showInput.value=false
-  }
-}
-// onLoop(({ elapsed }) => {
-//   if (boxRef.value) {
-//     boxRef.value.rotation.y = elapsed;
-//     boxRef.value.rotation.z = elapsed;
-//   }
-// });
+
 const pdfPath=ref('')
 const visiblePdf=ref(false)
 function showPDF(id:number){

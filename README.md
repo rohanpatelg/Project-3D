@@ -1,6 +1,10 @@
 # Tektome Assignment
-#### I have completed the assignment. Click on the thumbnail to see the video.
-<a href="https://www.youtube.com/watch?v=wnOu0L3xOO4" target="_blank">
+#### I have completed the assignment. 
+[Watch the video](https://www.youtube.com/watch?v=wnOu0L3xOO4)
+
+Or click the thumbnail below to watch it:
+
+<a href="https://www.youtube.com/watch?v=wnOu0L3xOO4" target="_blank" rel="noopener noreferrer">
   <img src="https://img.youtube.com/vi/wnOu0L3xOO4/hqdefault.jpg" alt="Watch the Video">
 </a>
 
