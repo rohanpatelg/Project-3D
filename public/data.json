@@ -1,0 +1,25 @@
+{
+        "nodes": [
+        { "id": 1, "name": "Tektome.pdf", "path": "/tektome-web.pdf" },
+        { "id": 2, "name": "News.pdf", "path": "/tektome-news.pdf" },
+        { "id": 3, "name": "News1.pdf", "path": "/tektome-news-1.pdf" },
+        { "id": 4, "name": "News1.pdf", "path": "/tektome-news-2.pdf"},
+        { "id": 5, "name": "Products.pdf", "path": "/tektome-products.pdf"},
+        { "id": 6, "name": "Product1.pdf", "path": "/tektome-product-1.pdf"},
+        { "id": 7, "name": "Products2.pdf", "path": "/tektome-product-2.pdf"},
+        { "id": 8, "name": "Features.pdf", "path": "/tektome-features.pdf"},
+        { "id": 9, "name": "Recruit.pdf", "path": "/tektome-recruit.pdf"},
+        { "id": 10, "name": "Contact.pdf", "path": "/tektome-contact.pdf"}
+        ],
+        "edges": [
+        { "id": 1, "source": 1, "target": 2, "value": "News" },
+        { "id": 2, "source": 2, "target": 3, "value": "News1" },
+        { "id": 3, "source": 2, "target": 4, "value": "News2" },
+        { "id": 4, "source": 1, "target": 5, "value": "Products" },
+        { "id": 5, "source": 5, "target": 6, "value": "Product1" },
+        { "id": 6, "source": 5, "target": 7, "value": "Product2" },
+        { "id": 7, "source": 1, "target": 8, "value": "Features" },
+        { "id": 8, "source": 1, "target": 9, "value": "Recruit" },
+        { "id": 9, "source": 1, "target": 10, "value": "Contact" }
+        ]
+}
