@@ -1,6 +1,8 @@
 # Tektome Assignment
 #### I have completed the assignment. Click on the thumbnail to see the video.
-[![Watch the Video](https://img.youtube.com/vi/wnOu0L3xOO4/hqdefault.jpg)](https://www.youtube.com/watch?v=wnOu0L3xOO4)
+<a href="https://www.youtube.com/watch?v=wnOu0L3xOO4" target="_blank">
+  <img src="https://img.youtube.com/vi/wnOu0L3xOO4/hqdefault.jpg" alt="Watch the Video">
+</a>
 
 
 ## Recommended IDE Setup
