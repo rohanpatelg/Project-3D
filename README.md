@@ -61,9 +61,9 @@ So, I grabbed the PDF for different parts of the webpage and make them as a Node
 
 1. Node Visualization (Requirement 1): Each node is a 3D node and is clickable with name of the file written below. :white_check_mark:
 
-2. Edge Visualization (Requirement 2): Based on the data the edge is connected between the nodes. The text(3D) of present in the edge represents the relation between nodes and is editable.:white_check_mark:
+2. Edge Visualization (Requirement 2): Based on the data the edge is connected between the nodes. The text(3D) of present in the edge represents the relation between nodes and is editable. :white_check_mark:
 
-3. User Interaction (Requirement 3): Use can easily interact with nodes and edges(zoom, pan the view and rotate):white_check_mark:
+3. User Interaction (Requirement 3): Use can easily interact with nodes and edges(zoom, pan the view and rotate). :white_check_mark:
 
 
 
